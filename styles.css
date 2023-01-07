@@ -1,0 +1,147 @@
+html,
+body {
+  background-image: url(./images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-color: rgba(224, 231, 255, 1);
+  background-size: contain;
+  font-family: 'Red Hat Display', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+  border-radius: 20px;
+  height: 567px;
+  width: 327px;
+}
+
+.card-img {
+  border-radius: 20px 20px 0px 0px;
+  height: 160px;
+  width: 327px;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  width: 263px;
+  height: 100%;
+}
+
+.card-title {
+  color: rgba(31, 46, 85, 1);
+  font-style: normal;
+  font-size: 22px;
+  font-weight: 900;
+  text-align: center;
+  margin: 20px 0px 0px 0px;
+}
+
+.card-description {
+  color: rgba(113, 127, 166, 1);
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+}
+
+.card-subscription {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.subscription-info {
+  margin-left: -50px;
+  line-height: 20px;
+}
+
+.subscription-title {
+  color: rgba(31, 46, 85, 1);
+  margin-bottom: 0;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.subscription-price {
+  color: rgba(113, 127, 166, 1);
+  margin-top: 0;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.subscription-change-button {
+  color: rgba(56, 42, 225, 1);
+  font-style: normal;
+  font-size: 13px;
+  font-weight: 700;
+  border-style: solid;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-width: 1px;
+  cursor: pointer;
+}
+
+.subscription-change-button:hover {
+  position: static;
+  color: rgba(118, 108, 241, 1);
+  border: 0;
+}
+
+.card-checkout {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.buy-button {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(56, 42, 225, 1);
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  border-style: none;
+  border-radius: 11px;
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 900;
+  cursor: pointer;
+  height: 50px;
+  width: 279px;
+  transition: background-color 0.2s;
+}
+
+.buy-button:hover {
+  background-color: rgba(118, 108, 241, 1);
+  box-shadow: 0px 15px 15px rgba(56, 42, 225, 0.190291);
+}
+
+.cancel-button {
+  color: rgba(113, 127, 166, 1);
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 900;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.cancel-button:hover {
+  color: rgba(31, 46, 85, 1);
+}
+
+@media (min-width: 1440px) {
+  html,
+  body {
+    background-image: url(./images/pattern-background-desktop.svg);
+  }
+}

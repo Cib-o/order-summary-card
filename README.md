@@ -6,4 +6,4 @@ Thanks for checking out this front-end coding challenge.
 
 ### Preview
 
-![project-preview](./preview/preview.gif)
+<img src="./preview/preview.gif"width="350" height="585" />

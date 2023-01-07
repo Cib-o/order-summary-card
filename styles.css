@@ -11,8 +11,8 @@ body {
   background-image: url(./images/pattern-background-mobile.svg);
   background-color: rgba(224, 231, 255, 1);
   background-repeat: no-repeat;
-  background-size: contain;
-  background-attachment: local;
+  background-size: cover;
+  background-position: 0px -500px;
 }
 
 .card {

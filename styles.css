@@ -1,16 +1,13 @@
 html {
+  background-color: rgba(224, 231, 255, 1);
   background-image: url(./images/pattern-background-mobile.svg);
   background-repeat: no-repeat;
-  background-color: rgba(224, 231, 255, 1);
-  background-size: contain;
+  background-size: cover;
+  background-position: 0px -500px;
 }
 
 html,
 body {
-  background-image: url(./images/pattern-background-mobile.svg);
-  background-repeat: no-repeat;
-  background-color: rgba(224, 231, 255, 1);
-  background-size: contain;
   font-family: 'Red Hat Display', sans-serif;
   display: flex;
   justify-content: center;
@@ -147,8 +144,7 @@ body {
 }
 
 @media (min-width: 1440px) {
-  html,
-  body {
+  html{
     background-image: url(./images/pattern-background-desktop.svg);
   }
 }

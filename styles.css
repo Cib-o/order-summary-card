@@ -1,3 +1,10 @@
+html {
+  background-image: url(./images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-color: rgba(224, 231, 255, 1);
+  background-size: contain;
+}
+
 html,
 body {
   background-image: url(./images/pattern-background-mobile.svg);
